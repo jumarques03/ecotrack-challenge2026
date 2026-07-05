@@ -1,8 +1,44 @@
+import "./index.css"
+import GraficoLinha from "./components/GraficoLinha"
+import InfosVariaveis from "./components/InfosVariaveis"
+import DecisoesEAlocacao from "./components/DecisoesEAlocacao"
+import Mapa from "./components/Mapa"
+
 function HomePrincipal() {
 
   return (
-    <div style={{backgroundColor: '#ffff'}}>
-        <h1>Olá React!</h1>
+    <div className="container">
+        <div className="barra-lateral"><p>teste</p></div>
+
+        <div className="div-main">
+            <div className="header"></div>
+
+
+            <div className="div-mapa-alocacao">
+                <div className="mapa">
+                    <Mapa/>
+                </div>
+
+                <div className="alocacao">
+                    <DecisoesEAlocacao/>
+                </div>
+            </div>
+
+
+            <div className="div-grafico-infos">
+                <div className="grafico">
+                    {/* COLOCAR COMPONENTE DO GRÁFICO AQUI */}
+                    <GraficoLinha/>
+                </div>
+            
+                <div className="infos">
+                    <InfosVariaveis/>
+                </div>
+            </div>
+            
+            
+            <div className="div-exportacao"></div> 
+        </div>
     </div>
   )
 }

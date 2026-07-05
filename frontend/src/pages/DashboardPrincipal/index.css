@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 150vh;
+}
+
+.barra-lateral {
+    background-color: aqua;
+    height: 100%;
+    width: 4%;
+}
+
+.div-main {
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza os filhos*/
+    flex: 1;              /* ocupa o espaço restante descontando o espaço da barra lateral*/
+    height: 150vh;
+}
+
+.header {
+    background-color: #f7345e; 
+    width: 100%;
+    height: 7%;
+}
+
+.div-mapa-alocacao {
+    width: 97%;
+    height: 60%;
+    text-align: center;
+    margin: 10px 0px 12px 0px;
+    display: flex;
+}
+
+.div-grafico-infos {
+    width: 97%;
+    height: 22%;
+    text-align: center;
+    margin: 0px 0px 12px 0px;
+    display: flex;
+}
+
+.div-exportacao {
+    background-color: #45ec45;
+    width: 97%;
+    height: 8%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mapa {
+    width: 60%;
+    margin-right: 12px;
+}
+
+.alocacao {
+    flex: 1;    /*equivale a 40% da tela*/
+}
+
+.grafico {
+    width: 50%;
+    margin-right: 12px;
+}
+
+.infos{
+    flex: 1;    /*equivale a 60% da tela*/
+}
