@@ -1,8 +1,9 @@
 import "./index.css"
 import GraficoLinha from "./components/GraficoLinha"
-import InfosVariaveis from "./components/InfosVariaveis"
+import VariaveisAnalisadas from "./components/VariaveisAnalisadas"
 import DecisoesEAlocacao from "./components/DecisoesEAlocacao"
 import Mapa from "./components/Mapa"
+import Exportacao from "./components/Exportacao"
 
 function HomePrincipal() {
 
@@ -32,12 +33,14 @@ function HomePrincipal() {
                 </div>
             
                 <div className="infos">
-                    <InfosVariaveis/>
+                    <VariaveisAnalisadas/>
                 </div>
             </div>
             
             
-            <div className="div-exportacao"></div> 
+            <div className="div-exportacao">
+                <Exportacao/>    
+            </div> 
         </div>
     </div>
   )

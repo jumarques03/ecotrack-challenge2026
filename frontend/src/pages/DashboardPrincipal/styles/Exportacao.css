@@ -1,0 +1,15 @@
+.container-card-exportacao{
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* .titulo-exportacao {
+    margin-right: 1670px;
+} */
