@@ -27,7 +27,7 @@
 
 .div-mapa-alocacao {
     width: 97%;
-    height: 62%;
+    height: 60%;
     text-align: center;
     margin: 10px 0px 12px 0px;
     display: flex;
@@ -35,7 +35,7 @@
 
 .div-grafico-infos {
     width: 97%;
-    height: 20%;
+    height: 22%;
     text-align: center;
     margin: 0px 0px 12px 0px;
     display: flex;
