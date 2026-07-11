@@ -6,6 +6,7 @@ import { FaBrain } from "react-icons/fa";
 import RecomendacaoSistema from "./CardRecomendacaoSistema";
 import { MdMapsUgc } from "react-icons/md";
 import EquipesDisponiveis from "./EquipesDisponiveis";
+import OperacaoManual from "./OperacaoManual";
 
 function DecisoesEAlocacao() {
     const [abaAtiva, setAbaAtiva] = useState("automatico");
@@ -43,7 +44,7 @@ function DecisoesEAlocacao() {
                         <EquipesDisponiveis/>
                     </div>
                 }
-                {abaAtiva === "manual" && <p>Interface manual ativada.</p>}
+                {abaAtiva === "manual" && <OperacaoManual/>}
             </div>
         </div>
     );

@@ -32,7 +32,7 @@ function EquipesDisponiveis() {
 
     return (
         <div className="container-equipes-disponiveis">
-            <h4 className="titulo-secao-equipes">Equipes Disponíveis</h4>
+            <h4 className="titulo-secao-equipes">Outras Recomendações</h4>
             
             <div className="lista-equipes">
                 {mockData.equipes.map((equipe) => {
