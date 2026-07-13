@@ -92,7 +92,7 @@ function OperacaoManual(onClickAlocarManualmente) {
                         onClick={lidarComClique}
                     >
                         <FaMapMarkerAlt className="icone-mapa" />
-                        Alocar equipes manualmente
+                        Alocar equipe
                     </button>
                     <ToastContainer/>
                 </div>

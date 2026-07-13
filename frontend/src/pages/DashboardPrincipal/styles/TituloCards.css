@@ -16,7 +16,7 @@
     padding: 7px;
 }
 
-.icone {
+.icone-titulo {
     display: inline-flex; /* Garante que o span não adicione espaço extra*/
     align-items: center;
     padding: 0px 2px 0px 10px;

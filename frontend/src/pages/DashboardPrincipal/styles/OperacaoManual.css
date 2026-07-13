@@ -3,7 +3,6 @@
     flex-direction: column;
     gap: 20px; /* Separação clara entre os passos */
     width: 100%;
-    padding: 12px 0;
 }
 
 .passo-container {
@@ -127,9 +126,6 @@
     transition: background-color 0.2s ease, opacity 0.2s ease;
 }
 
-/* .botao-despachar:hover:not(:disabled) {
-    background-color: #1e4231;
-} */
 
 /* Estilo para quando as regras lógicas não foram cumpridas */
 .botao-despachar:disabled {

@@ -1,5 +1,4 @@
 import "./index.css";
-import TituloCards from "./components/TituloCards"; 
 import VariavelCard from "./components/VariaveisCards";
 
 import { WiHumidity } from "react-icons/wi";

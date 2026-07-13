@@ -30,7 +30,7 @@ function RecomendacaoSistema({ icone, titulo, qtd_trechos_criticos, descricao_re
                 </p>
                 
                 <button className="botao-ativar-alocacao" onClick={lidarComClique}>
-                    Ativar Alocação Recomendada
+                    Alocar Equipe
                 </button>
                 <ToastContainer />
             </div>

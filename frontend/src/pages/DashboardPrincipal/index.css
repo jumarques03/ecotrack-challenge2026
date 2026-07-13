@@ -1,13 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    height: 120vh;
-}
-
-.barra-lateral {
-    background-color: aqua;
-    height: 100%;
-    width: 4%;
+    height: 100vh;
 }
 
 .div-main {
@@ -16,18 +10,12 @@
     flex-direction: column;
     align-items: center; /* centraliza os filhos*/
     flex: 1;              /* ocupa o espaço restante descontando o espaço da barra lateral*/
-    height: 120vh;
-}
-
-.header {
-    background-color: #f7345e; 
-    width: 100%;
-    height: 7%;
+    height: 100vh;
 }
 
 .div-mapa-alocacao {
     width: 97%;
-    height: 60%;
+    height: 55%;
     text-align: center;
     margin: 10px 0px 12px 0px;
     display: flex;
@@ -35,7 +23,7 @@
 
 .div-grafico-infos {
     width: 97%;
-    height: 22%;
+    height: 30%;
     text-align: center;
     margin: 0px 0px 12px 0px;
     display: flex;
