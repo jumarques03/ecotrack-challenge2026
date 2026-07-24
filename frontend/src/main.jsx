@@ -13,6 +13,7 @@ import DashboardVegetacao from "./pages/DashboardIndicadoresAmbientais"
 
 import "./index.css";
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
@@ -32,6 +33,7 @@ createRoot(document.getElementById("root")).render(
             path="/indicadores-ambientais"
             element={<DashboardVegetacao/>}
           />
+          
         </Route>
       </Routes>
     </BrowserRouter>
